@@ -6,8 +6,12 @@
 - [ ] support more than just ASCII (ie, unicode and utf-8, emojis, etc) (page 19-20)
 - [ ] support floats, hex, octal, and any numbers that are not strict integers (page 27)
 
+#### Parsing 
+- [ ] postfix operators (eg, foobar **++** ) (page 65)
+
 ### Long term project challenges: 
 - [ ] complete mvp of product as outlined in book
+- [ ] complete the [lost chapter](https://interpreterbook.com/lost/)
 - [ ] implement all additional features discussed in book 
 - [ ] honestly i'm not a huge fan of *monkeys* so maybe i'll rewrite this interpreter to be for a language named after my cat *misha* 
 - [ ] once above complete, check out the authors follow up book on [writing a compiler](https://compilerbook.com/). 
