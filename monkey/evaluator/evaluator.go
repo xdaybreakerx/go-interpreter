@@ -74,7 +74,6 @@ func evalBangOperatorExpression(right object.Object) object.Object {
 		return TRUE
 	default:
 		return FALSE
-
 	}
 }
 
