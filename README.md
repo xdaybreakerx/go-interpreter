@@ -11,6 +11,7 @@
 
 #### Evaluation
 - [ ] Boolean operands - adding, subtracting, dividing and multiplying booleans, checking whether true is greater than false with < or >. 
+- [ ] Add stack trace to error object
 
 ### Long term project challenges: 
 - [ ] complete mvp of product as outlined in book
