@@ -2,12 +2,15 @@
 
 ### Challenges set in book:
 #### Lexing
-- [ ] lexer attaches the line number, column number and filename to a token (page 15)
-- [ ] support more than just ASCII (ie, unicode and utf-8, emojis, etc) (page 19-20)
-- [ ] support floats, hex, octal, and any numbers that are not strict integers (page 27)
+- [ ] lexer attaches the line number, column number and filename to a token
+- [ ] support more than just ASCII (ie, unicode and utf-8, emojis, etc)
+- [ ] support floats, hex, octal, and any numbers that are not strict integers 
 
 #### Parsing 
-- [ ] postfix operators (eg, foobar **++** ) (page 65)
+- [ ] postfix operators (eg, foobar **++** )
+
+#### Evaluation
+- [ ] Boolean operands - adding, subtracting, dividing and multiplying booleans, checking whether true is greater than false with < or >. 
 
 ### Long term project challenges: 
 - [ ] complete mvp of product as outlined in book
