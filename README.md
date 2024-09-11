@@ -24,6 +24,12 @@
 - [ ] Implement technique (separate chaining, or open addressing) to prevent hash collision
 - [ ] optimise performance of the HashKey() method by caching their return values
 
+#### Macros
+
+- [ ] error handling for `ast.Modify`
+- [ ] move token construction, and implement error handling for `convertObjectToASTNode` during quote / unquote macro
+- [ ] proper modification of AST nodes - ast.Modify modifies child nodes, but doesn’t update the Token fields of the parent nodes
+
 ### Long term project challenges:
 
 - [x] complete mvp of product as outlined in book
