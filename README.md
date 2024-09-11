@@ -13,6 +13,10 @@
 - [ ] Boolean operands - adding, subtracting, dividing and multiplying booleans, checking whether true is greater than false with < or >. 
 - [ ] Add stack trace to error object
 
+#### Data Structures
+- [ ] readString reports an error instead of simply returning when it reaches the end of the input.
+- [ ] Add support for character escaping so that string literals like "hello \"world\"", "hello\n world" and "hello\t\t\tworld" work"
+
 ### Long term project challenges: 
 - [ ] complete mvp of product as outlined in book
 - [ ] complete the [lost chapter](https://interpreterbook.com/lost/)
