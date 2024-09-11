@@ -1,6 +1,7 @@
 package evaluator
 
 import (
+	"fmt"
 	"monkey/object"
 )
 
@@ -134,6 +135,15 @@ var builtins = map[string]*object.Builtin{
 			arr.Elements = newElements
 
 			return lastElement
+		},
+	},
+
+	"puts": &object.Builtin{
+		Fn: func(args ...object.Object) object.Object {
+			for _, arg := range args {
+				fmt.Println(arg.Inspect())
+			}
+			return NULL
 		},
 	},
 }
