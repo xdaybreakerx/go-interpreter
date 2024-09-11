@@ -25,10 +25,11 @@
 - [ ] optimise performance of the HashKey() method by caching their return values
 
 #### Macros
-
+// broadly the book skips over error handling and debugging support for macros
 - [ ] error handling for `ast.Modify`
 - [ ] move token construction, and implement error handling for `convertObjectToASTNode` during quote / unquote macro
 - [ ] proper modification of AST nodes - ast.Modify modifies child nodes, but doesn’t update the Token fields of the parent nodes
+- [ ] nested macro functions
 
 ### Long term project challenges:
 
