@@ -44,6 +44,8 @@ const (
 
 	// Data Structures
 	STRING = "STRING"
+	LBRACKET = "["
+	RBRACKET = "]"
 )
 
 type Token struct {
