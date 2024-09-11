@@ -24,10 +24,17 @@
 - [ ] Implement technique (separate chaining, or open addressing) to prevent hash collision
 - [ ] optimise performance of the HashKey() method by caching their return values
 
+#### Macros
+// broadly the book skips over error handling and debugging support for macros
+- [ ] error handling for `ast.Modify`
+- [ ] move token construction, and implement error handling for `convertObjectToASTNode` during quote / unquote macro
+- [ ] proper modification of AST nodes - ast.Modify modifies child nodes, but doesn’t update the Token fields of the parent nodes
+- [ ] nested macro functions
+
 ### Long term project challenges:
 
 - [x] complete mvp of product as outlined in book
-- [ ] complete the [lost chapter](https://interpreterbook.com/lost/)
+- [x] complete the [lost chapter](https://interpreterbook.com/lost/)
 - [ ] implement all additional features discussed in book
 - [ ] honestly i'm not a huge fan of _monkeys_ so maybe i'll rewrite this interpreter to be for a language named after my cat _misha_
 - [ ] once above complete, check out the authors follow up book on [writing a compiler](https://compilerbook.com/).
