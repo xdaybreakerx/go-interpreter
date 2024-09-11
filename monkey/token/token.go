@@ -27,6 +27,7 @@ const (
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
+	COLON     = ":"
 
 	LPAREN = "("
 	RPAREN = ")"
@@ -43,7 +44,7 @@ const (
 	RETURN   = "RETURN"
 
 	// Data Structures
-	STRING = "STRING"
+	STRING   = "STRING"
 	LBRACKET = "["
 	RBRACKET = "]"
 )
