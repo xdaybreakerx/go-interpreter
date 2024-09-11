@@ -76,6 +76,8 @@ func New(l *lexer.Lexer) *Parser {
 
 	p.registerInfix(token.LPAREN, p.parseCallExpression)
 
+	p.registerPrefix(token.STRING, p.parseStringLiteral)
+
 	// Read two tokens, so curToken and peekToken are both set
 	p.nextToken()
 	p.nextToken()
@@ -435,4 +437,8 @@ func (p *Parser) parseCallExpression(function ast.Expression) ast.Expression {
 	exp := &ast.CallExpression{Token: p.curToken, Function: function}
 	exp.Arguments = p.parseCallArguments()
 	return exp
+}
+
+func (p *Parser) parseStringLiteral() ast.Expression {
+	return &ast.StringLiteral{Token: p.curToken, Value: p.curToken.Literal}
 }
