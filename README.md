@@ -34,7 +34,7 @@
 ### Long term project challenges:
 
 - [x] complete mvp of product as outlined in book
-- [ ] complete the [lost chapter](https://interpreterbook.com/lost/)
+- [x] complete the [lost chapter](https://interpreterbook.com/lost/)
 - [ ] implement all additional features discussed in book
 - [ ] honestly i'm not a huge fan of _monkeys_ so maybe i'll rewrite this interpreter to be for a language named after my cat _misha_
 - [ ] once above complete, check out the authors follow up book on [writing a compiler](https://compilerbook.com/).
